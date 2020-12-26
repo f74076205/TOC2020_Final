@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dfbdb3c9e7e57576d30cae7da55f1dc93c997024e8dd6b0a6d8aef5af93f6bd9"
+            "sha256": "158fa56a7f59b8e86c903c47929b009f633b9a0e497c57d549cb7034e5acf48b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -140,7 +140,7 @@
                 "sha256:6ce55e762928a2fe6af21c82d8e809a81831acd82e53c4ba6371b08d7e5207b5",
                 "sha256:daf1b6f0b73512069b70cab83d83a2954abc054c03b7988aef5da411721ec5e6"
             ],
-            "path": "./pygraphviz-1.6-cp36-cp36m-win_amd64.whl",
+            "index": "pypi",
             "version": "==1.6"
         },
         "python-dotenv": {
