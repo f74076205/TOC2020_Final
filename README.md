@@ -29,7 +29,7 @@ TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時
 * 最新海龜湯
 * ![soup_latest](./img/soup_latest.jpg)
 ![soup_latest_2](./img/soup_latest_2.jpg)
-* 最新海龜湯
+* 高評等海龜湯
 * ![soup_rated](./img/soup_rated.jpg)
 ![soup_rated_2](./img/soup_rated_2.jpg)
 * youtube海龜湯推薦
