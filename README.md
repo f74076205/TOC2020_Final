@@ -71,7 +71,7 @@ Or You can use [servo](http://serveo.net/) to expose local servers to the intern
 
 
 ## Finite State Machine
-![fsm](./img/show-fsm.png)
+![fsm](./img/fsm copy.png)
 
 ## Usage
 The initial state is set to `user`.
@@ -129,8 +129,11 @@ sudo snap install --classic heroku
 3. Set Environment - Line Messaging API Secret Keys
 
 	```
-	heroku config:set LINE_CHANNEL_SECRET=your_line_channel_secret
-	heroku config:set LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
+	heroku config:set LINE_CHANNEL_SECRET=c85859b2fe8b45f8f3ca84f59f97b544
+
+your_line_channel_secret
+	heroku config:set LINE_CHANNEL_ACCESS_TOKEN=2zy+Oqdm9aHi/boXVUYUJp5fFQKeBXWJ6OQQ7DkYlbJLuR8NZJQUj+Kcbi7sxUva8ZoYGZVVvY4aBF30Y96KQzsUidaSvYDqj/Zk5QNA2msX2gqDX0svuDgVU1SVj9n3+qof/lD+GGbtLgIuR/MbwwdB04t89/1O/w1cDnyilFU=
+	your_line_channel_access_token
 	```
 
 4. Your Project is now running on Heroku!
