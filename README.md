@@ -11,33 +11,35 @@ TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時
 
 ## 操作
 * 呼叫主選單 選擇有興趣的區塊進入
-![menu1](./img/main1.jpg)![menu2](./img/main2.jpg)![menu3](./img/main3.jpg)
+* ![menu1](./img/main1.jpg)
+* ![menu2](./img/main2.jpg)
+* ![menu3](./img/main3.jpg)
 
 
 
 * marvel版最新鬼故事
-![ghost_ptt](./img/ghost_ptt.jpg)
+* ![ghost_ptt](./img/ghost_ptt.jpg)
 ![ghost_ptt2](./img/ghost_ptt_2.jpg)
 * youtube鬼故事推薦
-![ghost_video](./img/ghost_video.jpg)
+* ![ghost_video](./img/ghost_video.jpg)
 
 
 * 海龜湯謎題可選擇最新或是高評等 點標題可進入解答或答題
-![soup_choice](./img/soup_choice.jpg)
+* ![soup_choice](./img/soup_choice.jpg)
 * 最新海龜湯
-![soup_latest](./img/soup_latest.jpg)
+* ![soup_latest](./img/soup_latest.jpg)
 ![soup_latest_2](./img/soup_latest_2.jpg)
 * 最新海龜湯
-![soup_rated](./img/soup_rated.jpg)
+* ![soup_rated](./img/soup_rated.jpg)
 ![soup_rated_2](./img/soup_rated_2.jpg)
 * youtube海龜湯推薦
-![soup_video](./img/soup_video.jpg)
+* ![soup_video](./img/soup_video.jpg)
 
 
 * SCP介紹和網站連結
-![scp_web](./img/scp_web.jpg)
+* ![scp_web](./img/scp_web.jpg)
 * youtubeSCP推薦
-![scp_video](./img/scp_video.jpg)
+* ![scp_video](./img/scp_video.jpg)
 
 ## Reference
 * [海龜湯](http://gameschool.cc/turtlesoup/all/?o=date) 
