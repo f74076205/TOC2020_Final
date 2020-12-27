@@ -48,3 +48,4 @@ TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時
 
 ### qq
 * 用到heroku沒反應
+* 12.27更新 成功了 不要在本地端(app.py 115行)call # machine.get_graph().draw("fsm.png", prog="dot", format="png") 
