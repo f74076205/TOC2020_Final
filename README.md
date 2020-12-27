@@ -3,11 +3,11 @@
 TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時可以找到最新的謎題和影片來看的人所做。
 
 ## 環境
-windows 10
-python 3.6.8
+* windows 10
+* python 3.6.8
 
 ## Finite State Machine
-![fsm](./img/fsm copy.png)
+![fsm](./img/fsm_v2.png)
 
 ## 操作
 * 呼叫主選單 選擇有興趣的區塊進入
