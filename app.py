@@ -112,7 +112,7 @@ machine = TocMachine(
     auto_transitions=False,
     show_conditions=True,
 )
-machine.get_graph().draw("fsm.png", prog="dot", format="png")
+# machine.get_graph().draw("fsm.png", prog="dot", format="png")
 app = Flask(__name__, static_url_path="")
 
 
