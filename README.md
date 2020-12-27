@@ -11,9 +11,8 @@ TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時
 
 ## 操作
 * 呼叫主選單 選擇有興趣的區塊進入
-![menu1](./img/main1.jpg)
-![menu2](./img/main2.jpg)
-![menu3](./img/main3.jpg)
+![menu1](./img/main1.jpg)![menu2](./img/main2.jpg)![menu3](./img/main3.jpg)
+
 
 
 * marvel版最新鬼故事
