@@ -28,6 +28,7 @@ machine = TocMachine(
             "dest": "menu",
             "conditions": "is_going_to_menu",
         },
+        
         {
             "trigger": "advance",
             "source": "menu",

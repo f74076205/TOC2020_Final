@@ -5,6 +5,8 @@ TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時
 ## 環境
 * windows 10
 * python 3.6.8
+## QRCode
+![QRCode](./img/fsm_v2.png)
 
 ## Finite State Machine
 ![fsm](./img/fsm_v2.png)

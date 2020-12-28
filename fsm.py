@@ -94,7 +94,7 @@ def get_ptt_title():
         
         # title.append(t.text)
         ct=t.text
-        if('刪除'not in ct and '公告'not in ct ):
+        if('刪除'not in ct  ):
             title.append(t.text)
             url=urlptt+t['href']
             url_list.append(url)
@@ -112,6 +112,7 @@ class TocMachine(GraphMachine):
     def is_going_to_ghost_story_ptt(self, event):
         text = event.message.text.lower()
         return text == "看marvel版"
+    
     def is_going_to_ghost_story_youtube(self, event):
         text = event.message.text
         return text == "看微鬼畫"
@@ -144,6 +145,7 @@ class TocMachine(GraphMachine):
         message_to_reply = FlexSendMessage("開啟主選單", message)
         line_bot_api = LineBotApi( os.getenv('LINE_CHANNEL_ACCESS_TOKEN') )
         line_bot_api.reply_message(reply_token, message_to_reply)
+    
 
     def on_enter_ghost_story_ptt(self, event):
         reply_token = event.reply_token
