@@ -11,6 +11,9 @@ TOC2020_Final 主要為作者本人的興趣推廣，以及提供給想要隨時
 ## Finite State Machine
 ![fsm](./img/fsm_v2.png)
 
+## QRCode
+![qr](./img/qrcode.png)
+
 ## 操作
 * 呼叫主選單 選擇有興趣的區塊進入
 * ![menu1](./img/main1.jpg)
