@@ -152,29 +152,52 @@ class TocMachine(GraphMachine):
         message = message_template.marvelBoard
         title_ptt,url_ptt=get_ptt_title()
         print(url_ptt[0])
-        message["body"]["contents"][1]["contents"][0]["contents"][0]["text"]=title_ptt[0]
-        message["body"]["contents"][1]["contents"][1]["contents"][0]["text"]=url_ptt[0]
-        message["body"]["contents"][1]["contents"][1]["contents"][0]["action"]["uri"]=url_ptt[0]
+        try:
+            message["body"]["contents"][1]["contents"][0]["contents"][0]["text"]=title_ptt[0]
+            message["body"]["contents"][1]["contents"][1]["contents"][0]["text"]=url_ptt[0]
+            message["body"]["contents"][1]["contents"][1]["contents"][0]["action"]["uri"]=url_ptt[0]
+        except:
+            message["body"]["contents"][1]["contents"][0]["contents"][0]["text"]="尚無新文章"
+            message["body"]["contents"][1]["contents"][1]["contents"][0]["text"]="https://www.ptt.cc/bbs/marvel/index.html"
+            message["body"]["contents"][1]["contents"][1]["contents"][0]["action"]["uri"]="https://www.ptt.cc/bbs/marvel/index.html"
+        
+        
 
+        try:    
+            message["body"]["contents"][1]["contents"][2]["contents"][0]["text"]=title_ptt[1]
+            message["body"]["contents"][1]["contents"][3]["contents"][0]["text"]=url_ptt[1]
+            message["body"]["contents"][1]["contents"][3]["contents"][0]["action"]["uri"]=url_ptt[1]
+        except:
+            message["body"]["contents"][1]["contents"][2]["contents"][0]["text"]="尚無新文章"
+            message["body"]["contents"][1]["contents"][3]["contents"][0]["text"]="https://www.ptt.cc/bbs/marvel/index.html"
+            message["body"]["contents"][1]["contents"][3]["contents"][0]["action"]["uri"]="https://www.ptt.cc/bbs/marvel/index.html"
+        
+        try:
+            message["body"]["contents"][1]["contents"][4]["contents"][0]["text"]=title_ptt[2]
+            message["body"]["contents"][1]["contents"][5]["contents"][0]["text"]=url_ptt[2]
+            message["body"]["contents"][1]["contents"][5]["contents"][0]["action"]["uri"]=url_ptt[2]
+        except:
+            message["body"]["contents"][1]["contents"][4]["contents"][0]["text"]="尚無新文章"
+            message["body"]["contents"][1]["contents"][5]["contents"][0]["text"]="https://www.ptt.cc/bbs/marvel/index.html"
+            message["body"]["contents"][1]["contents"][5]["contents"][0]["action"]["uri"]="https://www.ptt.cc/bbs/marvel/index.html"
 
-        message["body"]["contents"][1]["contents"][2]["contents"][0]["text"]=title_ptt[1]
-        message["body"]["contents"][1]["contents"][3]["contents"][0]["text"]=url_ptt[1]
-        message["body"]["contents"][1]["contents"][3]["contents"][0]["action"]["uri"]=url_ptt[1]
+        try:
+            message["body"]["contents"][1]["contents"][6]["contents"][0]["text"]=title_ptt[3]
+            message["body"]["contents"][1]["contents"][7]["contents"][0]["text"]=url_ptt[3]
+            message["body"]["contents"][1]["contents"][7]["contents"][0]["action"]["uri"]=url_ptt[3]
+        except:
+            message["body"]["contents"][1]["contents"][6]["contents"][0]["text"]="尚無新文章"
+            message["body"]["contents"][1]["contents"][7]["contents"][0]["text"]="https://www.ptt.cc/bbs/marvel/index.html"
+            message["body"]["contents"][1]["contents"][7]["contents"][0]["action"]["uri"]="https://www.ptt.cc/bbs/marvel/index.html"
 
-
-        message["body"]["contents"][1]["contents"][4]["contents"][0]["text"]=title_ptt[2]
-        message["body"]["contents"][1]["contents"][5]["contents"][0]["text"]=url_ptt[2]
-        message["body"]["contents"][1]["contents"][5]["contents"][0]["action"]["uri"]=url_ptt[2]
-
-
-        message["body"]["contents"][1]["contents"][6]["contents"][0]["text"]=title_ptt[3]
-        message["body"]["contents"][1]["contents"][7]["contents"][0]["text"]=url_ptt[3]
-        message["body"]["contents"][1]["contents"][7]["contents"][0]["action"]["uri"]=url_ptt[3]
-
-
-        message["body"]["contents"][1]["contents"][8]["contents"][0]["text"]=title_ptt[4]
-        message["body"]["contents"][1]["contents"][9]["contents"][0]["text"]=url_ptt[4]
-        message["body"]["contents"][1]["contents"][9]["contents"][0]["action"]["uri"]=url_ptt[4]
+        try:
+            message["body"]["contents"][1]["contents"][8]["contents"][0]["text"]=title_ptt[4]
+            message["body"]["contents"][1]["contents"][9]["contents"][0]["text"]=url_ptt[4]
+            message["body"]["contents"][1]["contents"][9]["contents"][0]["action"]["uri"]=url_ptt[4]
+        except:
+            message["body"]["contents"][1]["contents"][8]["contents"][0]["text"]="尚無新文章"
+            message["body"]["contents"][1]["contents"][9]["contents"][0]["text"]="https://www.ptt.cc/bbs/marvel/index.html"
+            message["body"]["contents"][1]["contents"][9]["contents"][0]["action"]["uri"]="https://www.ptt.cc/bbs/marvel/index.html"
         message_to_reply = FlexSendMessage("前往marvel版最新文章", message)
         line_bot_api = LineBotApi( os.getenv('LINE_CHANNEL_ACCESS_TOKEN') )
         line_bot_api.reply_message(reply_token, message_to_reply)
